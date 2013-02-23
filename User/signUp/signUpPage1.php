@@ -8,32 +8,33 @@
  </head>
  <body class="pageOne">
 
- 	<div class="pageOneHeader">
- 		
- 		<div class="pageOneContainer">
+  <div class="container">
 
- 			<div class="span5">
- 			</div> <!-- end empty span 3 -->
+    <div class="row">
+      <div class="pageOneHeader  span12">
+      </div>
+    </div>
 
- 			<div class="span3">
- 				<form>
- 				<input type="button" class="pageOneContainerPublic" name="pageOneContainerPublic" id="pageOneContainerPublic" alt="GO Public!">
- 				</form>
- 			</div>
+    <div class="row">
+      <div class="pageOneContainer span12">
 
- 			<div class="span3">
- 				<form>
- 					<input type="button" class="pageOneContainerNinja" name="pageOneContainerNinja" id="pageOneContainerNinja" alt="Go Ninja!">
- 				</form>
- 			</div>
+        <div class="span4 offset2 center">
+          <form>
+          <input type="button" class="pageOneContainerPublic" name="pageOneContainerPublic" id="pageOneContainerPublic" alt="GO Public!">
+          </form>
+        </div>
 
- 			<div class="span1">
- 				<!-- empty span -->
- 			</div>
+        <div class="span4 center">
+          <form>
+            <input type="button" class="pageOneContainerNinja" name="pageOneContainerNinja" id="pageOneContainerNinja" alt="Go Ninja!">
+          </form>
+        </div>
 
- 		</div> <!-- end container div -->
+      </div> <!-- end container div -->
+    </div>
 
- 	</div> <!-- end header div -->
- 	
+  </div>
+
+
  </body>
  </html>
