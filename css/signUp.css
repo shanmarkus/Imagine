@@ -1,0 +1,77 @@
+.pageOne{
+	background-color: #B7E7F9;
+
+}
+
+.pageOneHeader{
+	background-image: url(../img/Signupstuff/page/1/header.png);
+	background-position: center;
+	background-size: 621px 481px;
+	min-width: 200px;
+	min-height: 281px;
+	background-repeat: no-repeat;
+	padding-top: 20%
+}
+
+.pageOneContainer{
+	padding-top: 3%;
+	background-color: #B7E7F9;
+
+}
+
+.pageOneContainerPublic{
+	background-image: url(../img/Signupstuff/page/1/publicAccount.png);
+	min-width: 163px;
+	min-height: 140px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #B7E7F9;
+	border: none;
+
+}
+
+.pageOneContainerNinja{
+	background-image: url(../img/Signupstuff/page/1/ninjaAccount.png);
+	min-width: 163px;
+	min-height: 140px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #B7E7F9;
+	border: none;
+
+}
+/*
+----------------------------- end of sign up first page css -----------------------------------*/
+
+.pageTwo{
+	background-color: #9AF7DA;
+	position: relative;
+
+}
+
+.pageTwoHeader{
+	background-image: url(../img/Signupstuff/page/2/header.png);
+	background-position: center;
+	background-size: 621px 481px;
+	min-width: 200px;
+	min-height: 281px;
+	background-repeat: no-repeat;
+	padding-top: 20%
+}
+
+.pageTwoContainer{
+	padding-top: 3%;
+	background-color: #9AF7DA;
+
+}
+
+.pageTwoContainerBox{
+	background-image: url(../img/Signupstuff/page/2/box.png);
+	background-size: 382px 118px;
+	min-width: 400px;
+	max-height: 200px;
+	background-repeat: no-repeat;
+	padding-top: 20%;
+}
+
+
