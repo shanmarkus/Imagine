@@ -8,7 +8,7 @@
 }
 
 .pageOneHeader{
-	background-image: url(../img/Signupstuff/page/1/header.png);
+	background-image: url(../img/Signupstuff/page/header/00.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 300px;
@@ -51,14 +51,14 @@
 }
 
 .pageTwoHeader{
-	background-image: url(../img/Signupstuff/page/2/header.png);
+	background-image: url(../img/Signupstuff/page/header/01.png);
 	background-position: center;
-	height: 300px;
+	height: 320px;
 	background-repeat: no-repeat;
 }
 
 .pageTwoContainer{
-	padding-top: 3%;
+	padding-top: 4%;
 	background-color: #9AF7DA;
 
 }
@@ -252,7 +252,7 @@
 }
 
 /*
------------------------------ end of sign up Eight page css -----------------------------------*/
+----------------------------- end of sign up Seven page css -----------------------------------*/
 
 .pageEight{
 	background-color: #FCCCB6;
@@ -266,3 +266,75 @@
 	background-repeat: no-repeat;
 }
 
+/*
+----------------------------- end of sign up Eight page css -----------------------------------*/
+
+
+.backButtonCss{
+	background-image: url(../img/Signupstuff/page/buttons/backInactive.png);
+	min-height: 45px;
+	min-width: 44px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+
+}
+
+.backButtonCss:active{
+	background-image: url(../img/Signupstuff/page/buttons/backActive.png);
+	min-height: 45px;
+	min-width: 44px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+}
+
+.skipButtonCss{
+	background-image: url(../img/Signupstuff/page/buttons/skipInactive.png);
+	min-height: 45px;
+	min-width: 44px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+}
+
+.skipButtonCss:active{
+	background-image: url(../img/Signupstuff/page/buttons/skipActive.png);
+	min-height: 45px;
+	min-width: 44px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+}
+
+.nextButtonCss{
+	/*the image not yet created*/
+	background-image: url(../img/Signupstuff/page/buttons/nextInactive.png);
+	min-height: 44px;
+	min-width: 42px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+}
+
+.nextButtonCss:active{
+	background-image: url(../img/Signupstuff/page/buttons/nextActive.png);
+	min-height: 44px;
+	min-width: 42px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+}
+
+.finishButtonCss{
+	background-image: url(../img/Signupstuff/page/buttons/finish.png);
+	min-height: 44px;
+	min-width: 45px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+}
+
+.additionalPaddingCss{
+	padding-top: 3%;
+}

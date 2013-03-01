@@ -1,0 +1,7 @@
+.foundationPage{
+	background-image: url(../img/FoundationMap/worldmap.png);
+	min-width: 1366px;
+	min-height: 768px;
+	background-repeat: no-repeat;
+	background-position: center;
+}

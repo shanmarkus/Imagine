@@ -1,0 +1,151 @@
+
+.testHeader{
+	background-color: red;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 70px;
+}
+
+.testLogo{
+	background-color: yellow;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 100px;
+}
+
+.testNav{
+	background-color: transparent;
+	margin-left: 5%;
+	width: 15%;
+	margin-right: 2%;
+	height:100%;
+}
+
+.testMenu{
+	background-color: purple;
+	padding-left: 2%;
+	width: 54%;
+	height: 200px;
+}
+
+.testWidget{
+	background-color: green;
+	margin-right: 5%;
+	width: 15%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	margin-top: 15%;
+	position: fixed;
+}
+
+
+.testFooter{
+	background-color: green;
+	height: 30px;
+}
+
+
+/*Navigation Bar CSS*/
+
+.homeButton{
+	background-image: url(../img/MainElements/Home-button.png);
+	height:80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+}
+
+.exploreButton{
+	background-image: url(../img/MainElements/Kids-button.png);
+	height:80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+}
+
+.notificationButton{
+	background-image: url(../img/MainElements/Notif-button.png);
+	height:80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+}
+
+
+.coinButton{
+	background-image: url(../img/MainElements/Coins-button.png);
+	height:80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+}
+
+.searchButton{
+	background-image: url(../img/MainElements/Search-button.png);
+	height:80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+}
+
+/*Widget Bar Css*/
+
+.pickMeButton{
+	background-image: url(../img/MainElements/Pickme-160.png);
+	height:160px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+}
+
+.recommendedButton{
+	background-image: url(../img/MainElements/Recommended-160.png);
+	height:160px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+}
+
+.pickMeButton{
+	background-image: url(../img/MainElements/Pickme-160.png);
+	height:160px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+}
+
+.emergencyButton{
+	background-image: url(../img/MainElements/Emergency-160.png);
+	height:160px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+}
+
+/*News Feed Division*/
+
+.newsFeed{
+	background-image: url(../img/MainElements/Newsfeed-box.png);
+	height:544px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+
+}
+
+.test{
+	position: fixed;
+}
