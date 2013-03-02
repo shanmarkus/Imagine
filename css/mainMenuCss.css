@@ -41,8 +41,7 @@
 
 .homeButton{
 	background-image: url(../img/MainElements/Home-button.png);
-	height:70px;
-	background-size: 100% 100%;
+	height:80px;
 	background-repeat: no-repeat;
 	/*background-position: center;*/
 	background-color: transparent;
@@ -51,8 +50,7 @@
 
 .exploreButton{
 	background-image: url(../img/MainElements/Kids-button.png);
-	height:70px;
-	background-size: 100% 100%;
+	height:80px;
 	background-repeat: no-repeat;
 	/*background-position: center;*/
 	background-color: transparent;
@@ -61,8 +59,7 @@
 
 .notificationButton{
 	background-image: url(../img/MainElements/Notif-button.png);
-	height:70px;
-	background-size: 100% 100%;
+	height:80px;
 	background-repeat: no-repeat;
 	/*background-position: center;*/
 	background-color: transparent;
@@ -72,8 +69,7 @@
 
 .coinButton{
 	background-image: url(../img/MainElements/Coins-button.png);
-	height:70px;
-	background-size: 100% 100%;
+	height:80px;
 	background-repeat: no-repeat;
 	/*background-position: center;*/
 	background-color: transparent;
@@ -82,8 +78,7 @@
 
 .searchButton{
 	background-image: url(../img/MainElements/Search-button.png);
-	height:70px;
-	background-size: 100% 100%;
+	height:80px;
 	background-repeat: no-repeat;
 	/*background-position: center;*/
 	background-color: transparent;
@@ -94,43 +89,47 @@
 
 .pickMeButton{
 	background-image: url(../img/MainElements/Pickme-160.png);
-	height:140px;
-	background-size: 70% 70%;
+	height:160px;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: center;
 	background-color: transparent;
 	border: transparent;
 }
 
 .recommendedButton{
 	background-image: url(../img/MainElements/Recommended-160.png);
-	height:140px;
-	background-size: 70% 70%;
+	height:160px;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: center;
+	background-color: transparent;
+	border: transparent;
+}
+
+.pickMeButton{
+	background-image: url(../img/MainElements/Pickme-160.png);
+	height:160px;
+	background-repeat: no-repeat;
+	background-position: center;
 	background-color: transparent;
 	border: transparent;
 }
 
 .emergencyButton{
 	background-image: url(../img/MainElements/Emergency-160.png);
-	height:140px;
-	background-size: 70% 70%;
+	height:160px;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: center;
 	background-color: transparent;
 	border: transparent;
-	shan ganteng sekali
 }
 
 /*News Feed Division*/
 
 .newsFeed{
 	background-image: url(../img/MainElements/Newsfeed-box.png);
-	background-size: 100% 80%;
 	height:544px;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: center;
 	background-color: transparent;
 	border: transparent;
 
