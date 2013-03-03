@@ -203,5 +203,15 @@
 }
 
 
+.coinsFeed{
+	background-image: url(../img/MainElements/Coins-box.png);
+	background-size: 100% 80%;
+	height:544px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: transparent;
+	border: transparent;
+
+}
 
 
