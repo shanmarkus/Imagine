@@ -190,6 +190,7 @@
 
 }
 
+/*Notification Feed Division--------------------------------------*/
 .notifFeed{
 	background-image: url(../img/MainElements/Notif-box.png);
 	background-size: 100% 80%;
@@ -200,5 +201,7 @@
 	border: transparent;
 
 }
+
+
 
 
