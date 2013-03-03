@@ -1,5 +1,5 @@
 
-.testHeader{
+.Header{
 	background-color: red;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -7,7 +7,7 @@
 	height: 70px;
 }
 
-.testLogo{
+.Logo{
 	background-color: yellow;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -15,23 +15,8 @@
 	height: 100px;
 }
 
-.testNav{
-	background-color: orange;
-	height:100%;
-}
 
-.testMenu{
-	background-color: purple;
-	height: 200px;
-}
-
-.testWidget{
-	background-color: green;
-	height: 100px;
-}
-
-
-.testFooter{
+.Footer{
 	background-color: green;
 	height: 30px;
 }
@@ -41,6 +26,16 @@
 
 .homeButton{
 	background-image: url(../img/MainElements/Home-button.png);
+	height:70px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-color: transparent;
+	border: transparent;
+}
+
+.homeButton:hover{
+	background-image: url(../img/MainElements/Home-button-rollover.png);
 	height:70px;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -59,8 +54,28 @@
 	border: transparent;
 }
 
+.exploreButton:hover{
+	background-image: url(../img/MainElements/Kids-button-rollover.png);
+	height:70px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-color: transparent;
+	border: transparent;
+}
+
 .notificationButton{
 	background-image: url(../img/MainElements/Notif-button.png);
+	height:70px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-color: transparent;
+	border: transparent;
+}
+
+.notificationButton:hover{
+	background-image: url(../img/MainElements/Notif-button-rollover.png);
 	height:70px;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -80,8 +95,28 @@
 	border: transparent;
 }
 
+.coinButton:hover{
+	background-image: url(../img/MainElements/Coins-button-rollover.png);
+	height:70px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-color: transparent;
+	border: transparent;
+}
+
 .searchButton{
 	background-image: url(../img/MainElements/Search-button.png);
+	height:70px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-color: transparent;
+	border: transparent;
+}
+
+.searchButton:hover{
+	background-image: url(../img/MainElements/Search-button-rollover.png);
 	height:70px;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -134,3 +169,5 @@
 	border: transparent;
 
 }
+
+
