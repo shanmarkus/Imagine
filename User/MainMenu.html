@@ -79,7 +79,7 @@
 
 		<div class="row-fluid">
 			<form>
-				<input type="button" class="span12 pickMeButton" id="pickme" name="pickme">
+				<input type="button" class="span12 pickMeButton" id="pickme" name="pickme" data-toggle="modal" href="#pickMeModal">
 			</form>
 		</div>
 
@@ -105,6 +105,35 @@
 	<!-- footer div -->
 
 </div>
+
+
+
+<!-- Modal for Widget button 
+-->
+
+<!-- Pick Me Modal Division -->
+
+<div id="pickMeModal" class="modal hide fade in" style="display: none; ">  
+	<div class="modal-header">  
+		<a class="close" data-dismiss="modal">×</a>  
+		<h3>This is a Pick Me Modal Example</h3>  
+	</div>  
+	<div class="modal-body">  
+		<h4>Text in a modal</h4>  
+		<p>You can add some text here.</p>                
+	</div>  
+	<div class="modal-footer">  
+		<a href="#" class="btn btn-success">Call to action</a>  
+		<a href="#" class="btn" data-dismiss="modal">Close</a>  
+	</div>  
+</div>  
+
+
+
+<!-- SCRIPT !!!  -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
+<script src="../js/bootstrap-modal.js"></script>  
 
 </body>
 
