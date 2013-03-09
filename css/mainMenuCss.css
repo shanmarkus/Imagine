@@ -242,7 +242,12 @@
 /*Modal division Division------------------------------------------- */
 
 .modal-body{
-	height: 600px !important;
+	height: 400px !important;
+}
+
+
+.modal-radius{
+	border-radius: 10px !important;
 }
 
 .modalPink{
