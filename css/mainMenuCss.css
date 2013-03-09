@@ -1,5 +1,5 @@
 .container{
-	width:1080px;
+	width:1200px !important;
 }
 
 .testBackground{
@@ -245,7 +245,7 @@
 
 .newsFeed{
 	background-image: url(../img/MainElements/Newsfeed-box.png);
-	background-size: 100% 100%;
+	background-size: 100% 80%;
 	height:544px;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -284,9 +284,12 @@
 	height: 300px !important;
 }
 
+.modal{
+	border-radius: 13px !important;
+}
 
 .modal-radius{
-	border-radius: 10px !important;
+	border-radius: 13px 13px 0px 0px !important;
 }
 
 .modalPink{
