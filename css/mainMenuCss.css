@@ -350,7 +350,7 @@
 
 
 .modal-radius{
-	border-radius: 10px !important;
+	border-radius: 10px 10px 0px 0px!important;
 }
 
 .modalPink{
@@ -359,6 +359,10 @@
 }
 .padding{
 	padding-left: 3%;
+}
+
+.modal{
+	border-radius: 10px !important;
 }
 
 
