@@ -241,15 +241,11 @@
 
 /*Modal division Division------------------------------------------- */
 
-
+.modal-body{
+	height: 600px !important;
+}
 
 .emergencyMiddleBox{
-	background-image: url(../img/MainElements/Emergency-middlebox.png);
-	background-size: 100% 100%;
-	width : 804px;
-	height: 544px;
-	background-repeat: no-repeat;
-	border: transparent;
 
 }
 .padding{
