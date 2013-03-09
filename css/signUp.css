@@ -308,10 +308,10 @@
 }
 
 .nextButtonCss{
-	/*the image not yet created*/
 	background-image: url(../img/Signupstuff/page/buttons/nextInactive.png);
-	min-height: 44px;
+	background-size: 100% 100%;
 	min-width: 42px;
+	min-height: 44px;
 	background-position: center;
 	background-repeat: no-repeat;
 	border: none;
