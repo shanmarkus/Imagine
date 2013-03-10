@@ -7,33 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/mainMenuCss.css">
 	<title>Hello User</title>
-<style>
-#uploadbtn{
-   position: relative;
-  
-   font-family: calibri;
-   width: 138px;
-   padding: 1px;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border: 1px  #BBB; 
-   text-align: center;
-   background-color: #DDD;
-   cursor:pointer;
-  }
-</style>
-<script type="text/javascript">
- function getFile(){
-   document.getElementById("upfile").click();
- }
- function sub(obj){
-    var file = obj.value;
-    var fileName = file.split("\\");
-    document.getElementById("uploadbtn").innerHTML = fileName[fileName.length-1];
-    document.myForm.submit();
-    event.preventDefault();
-  }
-</script>
+
 </head>
 
 <body class="testBackground">
@@ -105,97 +79,91 @@
 							<div class="span9 postArea">
 
 
-
-
-
-
 								<form action="#" method="post" name="post" enctype="multipart/form-data"
-									<input type="hidden" name="action" value="postArea" />
-									<textarea class="textArea" name="post"></textarea>
+								<input type="hidden" name="action" value="postArea" />
+								<textarea class="textArea" name="post"></textarea>
 
-<div id="uploadbtn" onclick="getFile()">click to upload a file</div>
-<div style='height: 0px; width: 0px;overflow:hidden;'><input id="upfile" type="file" value="upload" onchange="sub(this)"/></div>
+								<div id="uploadbtn" onclick="getFile()">Upload Photo</div>
+								<div style='height: 0px; width: 0px;overflow:hidden;'><input id="upfile" type="file" value="upload" onchange="sub(this)"/></div>
 
-									<!-- input type="text" class="span12" id="postArea" name="postArea" value=""/> -->
-
-								</div>
-
-								<!-- Area for inputing a post  -->
-								<div class="span2">
-
-									<input type="hidden" name="action" value="post"/>
-									<input type="submit" class="postButton span10" id="post" name="post" value=""/>
-								</form>
 							</div>
+
+							<!-- Area for inputing a post  -->
+							<div class="span2">
+
+								<input type="hidden" name="action" value="post"/>
+								<input type="submit" class="postButton span10" id="post" name="post" value=""/>
+							</form>
 						</div>
 					</div>
-					
 				</div>
 
-				<div class="row-fluid margin-top">
-					<!-- Main Menu Class -->
-					<div class="span12">
-
-						<div class="row-fluid">
-							<div class="newsFeedTop">
-								
-							</div>
-						</div>
-
-						<div class="row-fluid">
-							<div class="newsFeedMiddle">
-								<table>
-									<tr>
-										<td>PHOTO</td>
-										<td>Nama Lengkap</td>
-									</tr>
-									<tr>
-										<td>NOTIF</td>
-									</tr>
-								</table>
-							</div>
-						</div>
-
-						<div class="row-fluid">
-							<div class="newsFeedBot">
-							</div>
-						</div>
-					</div>
-
-				</div>
 			</div>
 
-			<div class="span1">
+			<div class="row-fluid margin-top">
+				<!-- Main Menu Class -->
+				<div class="span12">
 
-				<div class="row-fluid">
-					<form>
-						<input type="button" class="span12 pickMeButton" id="pickme" name="pickme" data-toggle="modal" href="#pickMeModal">
-					</form>
+					<div class="row-fluid">
+						<div class="newsFeedTop">
+
+						</div>
+					</div>
+
+					<div class="row-fluid">
+						<div class="newsFeedMiddle">
+							<table>
+								<tr>
+									<td>PHOTO</td>
+									<td>Nama Lengkap</td>
+								</tr>
+								<tr>
+									<td>NOTIF</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<div class="row-fluid">
+						<div class="newsFeedBot">
+						</div>
+					</div>
 				</div>
 
-				<div class="row-fluid">
-					<form>
-						<input type="button" class="span12 recommendedButton" id="recommended" name="recommended" data-toggle="modal" href="#Recomended">
-					</form>
-				</div>
+			</div>
+		</div>
 
-				<div class="row-fluid">
-					<form>
-						<input type="button" class="span12 emergencyButton" id="emergency" name="emergency" data-toggle="modal" href="#Emergency">
-					</form>
-				</div>
+		<div class="span1">
 
+			<div class="row-fluid">
+				<form>
+					<input type="button" class="span12 pickMeButton" id="pickme" name="pickme" data-toggle="modal" href="#pickMeModal">
+				</form>
+			</div>
+
+			<div class="row-fluid">
+				<form>
+					<input type="button" class="span12 recommendedButton" id="recommended" name="recommended" data-toggle="modal" href="#Recomended">
+				</form>
+			</div>
+
+			<div class="row-fluid">
+				<form>
+					<input type="button" class="span12 emergencyButton" id="emergency" name="emergency" data-toggle="modal" href="#Emergency">
+				</form>
 			</div>
 
 		</div>
-	</div>
-
-
-
-	<div class="Footer margin-top">
-		<!-- footer div -->
 
 	</div>
+</div>
+
+
+
+<div class="Footer margin-top">
+	<!-- footer div -->
+
+</div>
 
 
 
@@ -261,11 +229,7 @@
 
 	<script src="../js/jquery.js"></script>  
 	<script src="../js/bootstrap-modal.js"></script>  
-	<script>
-	$("#upfile1").click(function () {
-		$("#file1").trigger('click');
-	});
-	</script>
+	<script src="../js/js-script.js"></script>
 </body>
 
 </html>
