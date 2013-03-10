@@ -71,10 +71,11 @@ Post Bar Css--------------------------------------------------*/
 	background-image:url(../img/post/button.png);
 	background-size: 100% 95%;
 	height: 63px;
-	margin-top: 40%;
+	margin-top: 20%;
+	margin-left: 10% !important;
 	background-repeat: no-repeat;
 	border: transparent;
-	background-position:center;
+	background-position:right;
 	background-color: transparent;
 }
 
