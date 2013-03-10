@@ -9,7 +9,7 @@
 	<title>Hello User</title>
 </head>
 
-<body>
+<body class="testBackground">
 
 	<div class="Header">
 		<!-- Header class -->
@@ -74,11 +74,21 @@
 					</div>
 
 					<div class="userPost span9">
-						<div class="row-fluid">
-							<div class="span2 offset10">
-								<form action="#" method="post">
+						<div class="row-fluid"> 	
+							<div class="span9 postArea">
+								<form action="#" method="post" name="post">
+									<input type="hidden" name="action" value="postArea" />
+									<textarea class="textArea" name="post"></textarea>
+
+									<!-- input type="text" class="span12" id="postArea" name="postArea" value=""/> -->
+								
+							</div>
+
+							<!-- Area for inputing a post  -->
+							<div class="span2 offset2">
+
 									<input type="hidden" name="action" value="post"/>
-									<input type="submit" class="postButton span10" id="search" name="search" value=""/>
+									<input type="submit" class="postButton span10" id="post" name="post" value=""/>
 								</form>
 							</div>
 						</div>
@@ -98,15 +108,15 @@
 
 						<div class="row-fluid">
 							<div class="newsFeedMiddle">
-									<table>
-										<tr>
-											<td>PHOTO</td>
-											<td>Nama Lengkap</td>
-										</tr>
-										<tr>
-											<td>NOTIF</td>
-										</tr>
-									</table>
+								<table>
+									<tr>
+										<td>PHOTO</td>
+										<td>Nama Lengkap</td>
+									</tr>
+									<tr>
+										<td>NOTIF</td>
+									</tr>
+								</table>
 							</div>
 						</div>
 
@@ -146,7 +156,7 @@
 
 
 
-	<div class="Footer">
+	<div class="Footer margin-top">
 		<!-- footer div -->
 
 	</div>

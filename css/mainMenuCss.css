@@ -78,6 +78,23 @@ Post Bar Css--------------------------------------------------*/
 	background-color: transparent;
 }
 
+.postArea{
+	margin-left: 6.5% !important;
+	margin-top: 2%;
+	min-height: 110px;
+}
+
+.textArea{
+	resize:none;
+	width: 440px;
+	height:66px;
+	border-radius: 10px;
+}
+
+.postBorderRadius{
+	border-radius: 20%;
+}
+
 /*Navigation Bar CSS----------------------------------------------------*/
 
 .homeButton{
