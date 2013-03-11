@@ -96,6 +96,11 @@ Post Bar Css--------------------------------------------------*/
 	border-radius: 20%;
 }
 
+.photoDiv{
+	max-width: 100px;
+	max-height: 100px;
+}
+
 #uploadbtn{ /*kerjaan eric*/
 	position: relative;
 	box-shadow: 0px 0px 2px #c0c0c0;
@@ -416,7 +421,7 @@ Post Bar Css--------------------------------------------------*/
 /*Coins feed DIVISION-------------------------------------------------*/
 
 .kidsFeedBot{
-	background-image: url(../img/eric/Coins-box-unknownbottom.PNG);
+	background-image: url(../img/eric/Kids-box-unknownbottom.png);
 	background-size: 100% 100%;
 	height: 37px;
 	background-repeat: no-repeat;
@@ -426,7 +431,7 @@ Post Bar Css--------------------------------------------------*/
 }
 
 .kidsFeedTop{
-	background-image: url(../img/eric/Coins-box-unknowntop.PNG);
+	background-image: url(../img/eric/Kids-box-unknowntop.png);
 	background-size: 100% 100%;
 	height: 118px;
 	background-repeat: no-repeat;
@@ -437,7 +442,7 @@ Post Bar Css--------------------------------------------------*/
 }
 
 .kidsFeedMiddle{
-	background-image: url(../img/eric/Coins-box-unknown-middle.PNG);
+	background-image: url(../img/eric/Kids-box-unknown-middle.png);
 	background-size: 100% 100%;
 	min-height: 400px;
 	background-repeat: repeat;
