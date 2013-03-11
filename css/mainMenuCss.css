@@ -490,3 +490,10 @@ p.myFont {
 	text-align: left;
 	padding-top: 5%;
 }
+
+
+/*My Profile Division----------------------------------------------------*/
+
+.newsFeedProfile{
+	max-width: 400px;
+}
