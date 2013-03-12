@@ -18,9 +18,12 @@
 	background-repeat: no-repeat;
 }
 
-.headerButton{
+.headerContain{
+	margin-top: 10px;
+}
+
+.searchBox{
 	right: 0;
-	margin-right: 10%;
 }
 
 .Logo{
