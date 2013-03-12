@@ -1,7 +1,7 @@
-/*Kids Profile Box  Division------------------------------------------------*/
+/*User Profile Box  Division------------------------------------------------*/
 
-.kidsProfileBot{
-	background-image: url(../img/eric/botkids.PNG);
+.foundationProfileBot{
+	background-image: url(../img/eric/bot.PNG);
 	background-size: 100% 100%;
 	height: 37px;
 	background-repeat: no-repeat;
@@ -10,8 +10,8 @@
 	border: transparent;
 }
 
-.kidsProfileTop{
-	background-image: url(../img/eric/topkids.PNG);
+.foundationProfileTop{
+	background-image: url(../img/eric/top.PNG);
 	background-size: 100% 100%;
 	height: 118px;
 	background-repeat: no-repeat;
@@ -21,13 +21,14 @@
 
 }
 
-.kidsProfileMiddle{
-	background-image: url(../img/eric/midkids.PNG);
+.foundationProfileMiddle{
+	background-image: url(../img/eric/mid.PNG);
 	background-size: 100% 100%;
-	min-height: 200px;
+	min-height: 400px;
 	background-repeat: repeat;
 	background-color: transparent;
 	border: transparent;
 	padding-left: 5%;
 	padding-right: 5%;
 }
+
