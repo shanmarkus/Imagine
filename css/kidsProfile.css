@@ -1,7 +1,7 @@
-/*User Profile Box  Division------------------------------------------------*/
+/*Kids Profile Box  Division------------------------------------------------*/
 
 .userProfileBot{
-	background-image: url(../img/eric/bot.PNG);
+	background-image: url(../img/eric/botkids.PNG);
 	background-size: 100% 100%;
 	height: 37px;
 	background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 }
 
 .userProfileTop{
-	background-image: url(../img/eric/top.PNG);
+	background-image: url(../img/eric/topkids.PNG);
 	background-size: 100% 100%;
 	height: 118px;
 	background-repeat: no-repeat;
@@ -22,12 +22,11 @@
 }
 
 .userProfileMiddle{
-	background-image: url(../img/eric/mid.PNG);
+	background-image: url(../img/eric/midkids.PNG);
 	background-size: 100% 100%;
-	min-height: 400px;
+	min-height: 200px;
 	background-repeat: repeat;
 	background-color: transparent;
 	border: transparent;
 	padding-left: 5%;
 }
-
