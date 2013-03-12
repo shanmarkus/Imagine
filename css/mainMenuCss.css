@@ -543,6 +543,14 @@ Post Bar Css--------------------------------------------------*/
 
 }
 
+.foundationFont { 
+	font-family: myFont;
+	font-size: 30px;
+	text-align: left;
+	padding-left: 2%;
+
+}
+
 
 /*My Profile Division----------------------------------------------------*/
 
