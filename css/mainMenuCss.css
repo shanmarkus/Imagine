@@ -22,8 +22,13 @@
 	margin-top: 10px;
 }
 
+.dropButton{
+	margin-left: 1000px;
+}
+
 .searchBox{
-	right: 0;
+	margin-left: 800px;
+
 }
 
 .Logo{
