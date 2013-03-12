@@ -18,17 +18,17 @@
 	background-repeat: no-repeat;
 }
 
-.headerContain{
-	margin-top: 10px;
+.margin-rightHeader{
+	margin-right: -50px;
 }
 
-.dropButton{
-	margin-left: 800px;
+.margin-leftHeader{
+	margin-left: 20%;
 }
 
-.searchBox{
-	margin-left:;
 
+.margin-topHeader{
+ margin-top: 10px;
 }
 
 .Logo{
