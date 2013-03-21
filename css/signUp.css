@@ -57,6 +57,13 @@
 	background-repeat: no-repeat;
 }
 
+.pageTwoHeaderninja {
+	background-image: url(../img/Signupstuff/ninjaheader/2_03.png);
+	background-position: center;
+	height: 320px;
+	background-repeat: no-repeat;
+}
+
 .pageTwoContainer{
 	padding-top: 4%;
 	background-color: #9AF7DA;
@@ -338,4 +345,18 @@
 
 .additionalPaddingCss{
 	padding-top: 3%;
+}
+
+@font-face {
+	font-family: myFont;
+	src: url(obelisque.otf);
+} 
+
+.myFont { 
+	font-family: myFont;
+	font-size: 30px;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 2%;
+
 }
