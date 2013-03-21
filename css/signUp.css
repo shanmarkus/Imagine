@@ -98,6 +98,13 @@
 	background-repeat: no-repeat;
 }
 
+.pageThreeHeaderninja{
+	background-image: url(../img/Signupstuff/ninjaheader/1_03.png);
+	background-position: center;
+	height: 369px;
+	background-repeat: no-repeat;
+}
+
 .pageThreeContainer{
 	padding-top: 3%;
 	background-color: #F9D498;
@@ -353,6 +360,15 @@
 } 
 
 .myFont { 
+	font-family: myFont;
+	font-size: 25px;
+	text-align: center;
+	padding-top:25%;
+	padding-left: 2%;
+
+}
+
+.myFontPassword { 
 	font-family: myFont;
 	font-size: 25px;
 	text-align: center;
