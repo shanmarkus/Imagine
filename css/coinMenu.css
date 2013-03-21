@@ -44,3 +44,17 @@
 	border: none;
 	background-color: transparent;
 }
+
+.textBuy{
+	background-image: url(../img/coins/textbuy.png);
+	background-size: 100%;
+	height: 41px;
+	background-repeat: no-repeat;
+}
+
+.bigCoin{
+	background-image: url(../img/coins/bigcoin.png);
+	background-size: 100%;
+	height: 205px;
+	background-repeat: no-repeat;
+}
