@@ -354,9 +354,9 @@
 
 .myFont { 
 	font-family: myFont;
-	font-size: 30px;
-	text-align: left;
-	padding-top: 20px;
+	font-size: 25px;
+	text-align: center;
+	padding-top:25%;
 	padding-left: 2%;
 
 }
